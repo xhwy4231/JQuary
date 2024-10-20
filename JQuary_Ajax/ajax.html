@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>文章列表</title>
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+		</script>
+		<script src="js/ajax.js"></script>
+		<link rel="stylesheet" href="./css/ajax.css" />
+	</head>
+	<body>
+		<div id="div1" class="h3_chiness_class">
+			<center><h3>欢迎访问</h3></center>
+		</div>
+		<div id="div2" class="h3_chiness_class">
+			<center><h3>文章列表</h3></center>
+		</div>
+		<div id="div3" class="h3_English_class">
+			<center><span>welcome to access</span></center>
+		</div>
+		<div id="div4" class="h3_English_class">
+			<center><span>articles list</span></center>
+		</div>
+		
+		<button type="button" id="backTop"
+		onclick="back_top()" onmouseenter="clearTimer()" onmouseout="setTimer()" >Top</button>
+
+		<div id="message_box">
+			<span id="message_box_span">词条数目</span>
+			<ul id="page_ul">
+				<li><a href="">上一页</a></li>
+				<li><a href="">下一页</a></li>
+			</ul>
+			
+			<ul id="articleList_ul">
+				<li>
+					<div class="img_path">
+						<img class="div_img" src="https://www.tit.edu.cn/images/2021071305.jpg" alt="校园景观" />
+					</div>
+					<div class="article_div">
+						<span class="article_div_title">
+							<span class="article_title">七十周年校庆</span>
+							<span class="update_at">2024-09-27 16:40:50</span>
+						</span>
+						<p class="intro">暂无简介</p>
+						<span class="article_data">
+							<span class="author">作者:匿名</span>
+							<span class="hits_num">点击数:4500</span>
+							<span class="comment_num">评论数:666</span>
+							<span class="share_num">转发数:1000</span>
+						</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
